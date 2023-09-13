@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="fondo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="fondo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="fondo">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="25" pref="36" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="img1" min="-2" pref="167" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jPanelAna" min="-2" pref="248" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="tituloAna" min="-2" pref="248" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="jPanelRoberto" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="img2" min="-2" pref="160" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="tituloRoberto" min="-2" pref="281" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="verTotales" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                                  <Component id="salir" min="-2" pref="83" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="jPanelLucrecia" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="img3" min="-2" pref="170" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="img4" min="-2" pref="193" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="tituloLucrecia" alignment="0" min="-2" pref="260" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="iniciarDia" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                          <Component id="registrarAnita" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                          <Component id="registrarRoberto" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                                          <Component id="registrarLucrecia" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="registrarJose" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jPanelJose" max="32767" attributes="0"/>
+                                      <Component id="tituloJose" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="tituloPeluqueria" min="-2" pref="459" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="268" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace pref="26" max="32767" attributes="0"/>
+                  <Component id="tituloPeluqueria" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="tituloAna" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jPanelAna" min="-2" max="-2" attributes="0"/>
+                              <Component id="img1" min="-2" pref="213" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="tituloRoberto" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jPanelRoberto" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="img2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="tituloLucrecia" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jPanelLucrecia" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Component id="img3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="tituloJose" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jPanelJose" min="-2" max="-2" attributes="0"/>
+                              <Component id="img4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="iniciarDia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="registrarAnita" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="registrarRoberto" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="registrarLucrecia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="verTotales" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="salir" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="registrarJose" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="30" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="tituloPeluqueria">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Stencil" size="48" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="99" red="cc" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="PELUQUERIA UDEC"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituloAna">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Berlin Sans FB" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="ANA"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituloRoberto">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Berlin Sans FB" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="ROBERTO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="img1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="C:\Users\mh684\OneDrive\Documentos\Materias 3er Semestre\Programacion II\java proyectos\tPeluqueria\src\main\java\com\mycompany\tpeluqueria\PELUQUERA1 (1).jpg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="jLabel1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="img2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="C:\Users\mh684\OneDrive\Documentos\Materias 3er Semestre\Programacion II\java proyectos\tPeluqueria\src\main\java\com\mycompany\tpeluqueria\PELUQUERO1 (1).jpg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="jLabel1"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanelAna">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="ff" red="cc" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                <EmptyBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="textTotalSAna" alignment="0" min="-2" pref="81" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="textCcAna" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="textCdAna" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="cantCdAna" min="-2" pref="43" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="valorCdAna" min="-2" pref="52" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="cantCcAna" min="-2" pref="53" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="valorCcAna" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="textTinAna" alignment="0" min="-2" pref="81" max="-2" attributes="0"/>
+                                  <Component id="textPeinAna" alignment="0" min="-2" pref="72" max="-2" attributes="0"/>
+                                  <Component id="textTotalRAna" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="cantPeinAna" min="-2" pref="43" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="valorPeinAna" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="cantTotalSAna" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                  <Component id="cantTotalRAna" min="-2" pref="70" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="cantTintAna" min="-2" pref="43" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="valorTinAna" min="-2" pref="52" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textCcAna" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantCcAna" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="valorCcAna" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textCdAna" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantCdAna" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="valorCdAna" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textTinAna" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantTintAna" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="valorTinAna" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textPeinAna" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="valorPeinAna" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantPeinAna" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textTotalSAna" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantTotalSAna" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textTotalRAna" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantTotalRAna" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="18" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="textCcAna">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Corte Caballero"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="valorCcAna">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantCcAna">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textCdAna">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Corte Dama"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textTinAna">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tintura Cabello"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textPeinAna">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Peinado"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textTotalSAna">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Total Servicios"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textTotalRAna">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Total Recaudo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantTotalRAna">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantTotalSAna">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantPeinAna">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantTintAna">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantCdAna">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="valorCdAna">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="valorTinAna">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="valorPeinAna">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanelRoberto">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="ff" red="cc" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                <EmptyBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="textCcRob" alignment="0" max="32767" attributes="0"/>
+                          <Component id="textTinRob" alignment="0" max="32767" attributes="0"/>
+                          <Component id="textPeinRob" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                          <Component id="textTotalRRob" alignment="0" max="32767" attributes="0"/>
+                          <Component id="textTotalSRob" alignment="0" max="32767" attributes="0"/>
+                          <Component id="textCdRob" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace pref="20" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="cantCcRob" alignment="1" min="-2" pref="55" max="-2" attributes="0"/>
+                                  <Component id="cantCdRob" alignment="1" min="-2" pref="55" max="-2" attributes="0"/>
+                                  <Component id="cantTinRob" alignment="1" min="-2" pref="55" max="-2" attributes="0"/>
+                                  <Component id="cantPeinRob" alignment="1" min="-2" pref="55" max="-2" attributes="0"/>
+                                  <Component id="cantTotalSRob" alignment="1" min="-2" pref="55" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="valorCcRob" alignment="1" min="-2" pref="69" max="-2" attributes="0"/>
+                                  <Component id="valorTinRob" alignment="1" min="-2" pref="69" max="-2" attributes="0"/>
+                                  <Component id="valorCdRob" alignment="1" min="-2" pref="69" max="-2" attributes="0"/>
+                                  <Component id="valorPeinRob" alignment="1" min="-2" pref="69" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="12" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="cantTotalRRob" min="-2" pref="74" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textCcRob" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantCcRob" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="valorCcRob" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="textCdRob" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="cantCdRob" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                              <Component id="valorCdRob" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textTinRob" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantTinRob" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="valorTinRob" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textPeinRob" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantPeinRob" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="valorPeinRob" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textTotalSRob" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantTotalSRob" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textTotalRRob" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantTotalRRob" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="18" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="textCcRob">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Corte Caballero"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textCdRob">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Corte Dama"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textTinRob">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tintura Cabello"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textPeinRob">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Peinado"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textTotalSRob">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Total Servicios"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textTotalRRob">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Total Recaudo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantCcRob">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantCdRob">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantTinRob">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantPeinRob">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantTotalSRob">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantTotalRRob">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="valorCcRob">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="valorCdRob">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="valorTinRob">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="valorPeinRob">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="tituloLucrecia">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Berlin Sans FB" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="LUCRECIA"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanelLucrecia">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="ff" red="cc" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                <EmptyBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="textTotalRLu" alignment="1" max="32767" attributes="0"/>
+                          <Component id="textTotalSLu" alignment="1" max="32767" attributes="0"/>
+                          <Component id="textCcLu" alignment="0" max="32767" attributes="0"/>
+                          <Component id="textCdLu" alignment="0" max="32767" attributes="0"/>
+                          <Component id="textTinLu" alignment="0" max="32767" attributes="0"/>
+                          <Component id="textPeinLu" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="cantTotalSLu" alignment="0" pref="64" max="32767" attributes="0"/>
+                                  <Component id="cantPeinLu" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cantCcLu" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cantCdLu" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cantTinLu" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="valorCcLu" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="valorCdLu" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="valorTinLu" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="valorPeinLu" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="cantTotalRLu" min="-2" pref="92" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="43" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textCcLu" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantCcLu" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="valorCcLu" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textCdLu" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantCdLu" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="valorCdLu" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textTinLu" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantTinLu" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="valorTinLu" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textPeinLu" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantPeinLu" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="valorPeinLu" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textTotalSLu" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantTotalSLu" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textTotalRLu" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantTotalRLu" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="14" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="textCcLu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Corte Caballero"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textCdLu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Corte Dama"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textTinLu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tintura Cabello"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textTotalRLu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Total Recaudo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textTotalSLu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Total Servicios"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textPeinLu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Peinado"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantCcLu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantCdLu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantTinLu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantPeinLu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantTotalSLu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantTotalRLu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="valorCcLu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="valorCdLu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="valorTinLu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="valorPeinLu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="img3">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="C:\Users\mh684\OneDrive\Documentos\Materias 3er Semestre\Programacion II\java proyectos\tPeluqueria\src\main\java\com\mycompany\tpeluqueria\PELUQUERA2 (1).jpg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="jLabel1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="img4">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="C:\Users\mh684\OneDrive\Documentos\Materias 3er Semestre\Programacion II\java proyectos\tPeluqueria\src\main\java\com\mycompany\tpeluqueria\PELUQUERO2 (1).jpg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="jLabel1"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanelJose">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="ff" red="cc" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                <EmptyBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="textCcJo" alignment="0" max="32767" attributes="0"/>
+                          <Component id="textCdJo" alignment="0" max="32767" attributes="0"/>
+                          <Component id="textTinJo" alignment="0" max="32767" attributes="0"/>
+                          <Component id="textPeinJo" alignment="0" max="32767" attributes="0"/>
+                          <Component id="textTotalSJo" alignment="0" max="32767" attributes="0"/>
+                          <Component id="textTotalRJo" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="cantTotalSJo" alignment="0" pref="67" max="32767" attributes="0"/>
+                                  <Component id="cantCcJo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cantCdJo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cantTinJo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cantPeinJo" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="valorCcJo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="valorCdJo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="valorTinJo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="valorPeinJo" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="cantTotalRJo" min="-2" pref="84" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="47" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textCcJo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantCcJo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="valorCcJo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textCdJo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantCdJo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="valorCdJo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textTinJo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantTinJo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="valorTinJo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textPeinJo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantPeinJo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="valorPeinJo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textTotalSJo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantTotalSJo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textTotalRJo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cantTotalRJo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="16" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="textCcJo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Corte Caballero"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textCdJo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Corte Dama"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textTinJo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tintura Cabello"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textPeinJo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Peinado"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textTotalSJo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Total Servicios"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textTotalRJo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Total Recaudo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantCcJo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantCdJo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantTinJo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantPeinJo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantTotalSJo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cantTotalRJo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="valorCcJo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="valorCdJo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="valorTinJo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="valorPeinJo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="tituloJose">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Berlin Sans FB" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="JOS&#xc9;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="iniciarDia">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Iniciar d&#xed;a"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="iniciarDiaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="registrarAnita">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Registrar Anita"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="registrarAnitaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="registrarRoberto">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Registrar Roberto"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="registrarRobertoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="registrarLucrecia">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Registrar Lucrecia"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="registrarLucreciaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="registrarJose">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Registrar Jos&#xe9;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="registrarJoseActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="verTotales">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ver Totales"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="verTotalesActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="salir">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="99" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Salir"/>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[72, 25]"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="salirActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
